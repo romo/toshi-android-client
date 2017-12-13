@@ -68,4 +68,36 @@ public class TransactionRequest {
         this.chainId = chainId;
         return this;
     }
+
+    public String getValue() {
+        return value;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public String getGas() {
+        return gas;
+    }
+
+    public String getGasPrice() {
+        return gasPrice;
+    }
+
+    public String getNonce() {
+        return nonce;
+    }
+
+    public String getChainId() {
+        return chainId;
+    }
 }
